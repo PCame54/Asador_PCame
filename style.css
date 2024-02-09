@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(244, 244, 244);
+}
+
+header {
+    position: sticky;
+    top: 0%;
+    bottom: 0%;
+    background-color: #D6B287;
+    color: black;
+}
+
+
+li {
+    display: inline;
+    padding-top: 9px;
+    padding-right: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+.logo1 {
+    display: inline;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 130px;
+    padding-bottom: 20px;
+}
+
+a{
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+h1 {
+    display: inline;
+    font-size: 190%;
+    font-weight: 600;
+    
+}
+
+h2 {
+    display: inline;
+    position: absolute;
+    top: 80px;
+    left: 175px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.menu-container {
+    position: fixed;
+    top: 83px;
+    right: 60px;
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 950px) {
+    .menu {
+        display: flex;
+        justify-content:center;
+        margin-top: 45px;
+        margin-left: 18%;
+        text-decoration: solid;
+    }
+    nav{
+        height: 175px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 480px) {
+
+    header {
+        position: relative;
+        background-color: rgb(233, 220, 220);
+        padding: 50px;
+        padding-bottom: 1px;
+        color: black;
+    }
+    
+    .logo1 {
+        display: block;
+        width: 170px;
+        margin: auto;
+        margin-top: -40px;
+        margin-bottom: -15px;
+   }
+
+    h1 {
+        display: none;   
+   }
+
+    h2 {
+        display: block;
+        position: static;
+        text-align: center;
+        margin-bottom: -8px;
+        font-style: italic;
+        font-size: 20px;
+    } 
+
+    .menu-container {
+        display: block;
+        position: static;
+        margin-top: 20px;
+    }
+
+    .menu {
+        display: grid;
+        text-align: center;
+        grid-template-rows: 30px 30px 50px;
+        grid-template-columns: 2fr 2fr;
+        row-gap: 5px;
+        padding: 0px 0px 0px 0px;  
+    }        
+       
+    .reserva {
+        grid-column: 3 / 1;
+        margin-top: 10px;
+        background-color: #a2d0a9;
+    }
+}
+
+
+.videoyt {
+    background-color: aliceblue;
+    padding-top: 0%;
+    
+}
+
+.mid-servicio{
+    background-color: #D6B287; 
+}
+
+.servicio {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 46px;
+}
+
+.text {
+    font-size: 20px;
+    padding-top: 0px;
+    padding-right: 20%;
+    padding-bottom: 30px;
+    padding-left: 46px;  
+}
+
+.especialidad {
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 46px;
+}
+
+.reserva {
+    background-color: #48AD58;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+
+.plato1 {
+    width: 60%;
+    height: 60%;
+    padding-top: 30px;
+    margin-left: 20%;
+}
+
+.logo-home {
+    display: block;
+    margin: auto;
+    width: 15%;
+    height: 15%;
+    padding-bottom: 0px;
+
+   
+}
+
+.asador{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 0px;
+
+}
+
+.footer{
+    background-color: #D6B287;
+    padding-top: 15px;  
+    padding-bottom: 15px;
+}
+.container{
+    font-size: 16px;
+    text-align: justify;
+   
+}
+
+.title-1 {
+    text-decoration:underline;
+}
+
+.title-2 {
+    text-decoration:underline;
+}
+
+.title-3 {
+    text-decoration:underline;
+}
+
+
+
+
+
+
+
+/* machete para mi
+
+
+Grilla
+#grilla {
+    display: grid;
+    grid-template-rows: 80px 1fr 1fr 60px;
+    grid-template-columns: 20% auto 15%;
+
+    grid-template-areas:  (puedo usar 4 renglones y 3 espacios)
+    "header header header"
+    "productos productos publi"
+    "servicios servicios publi"
+    "footer footer footer";
+
+    gap: 5px;
+    height: 50vh; (vh es el viewport)
+
+    
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}*/

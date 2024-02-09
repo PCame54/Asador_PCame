@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Asador</title>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- link al prototipo de figma: 
+https://www.figma.com/proto/oGcTkV94o7SoIHE2PKRHCQ/Desarrollo-Web?page-id=0%3A1&type=design&node-id=2-3&viewport=195%2C381%2C0.15&t=DQuyl5ZZoUun60vj-1&scaling=min-zoom&starting-point-node-id=2%3A3&mode=design
+ AL MENOS A ESO QUISIERA LLEGAR EVENTUALMENTE -->
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">
+                <!-- NOTA: El logo es un hipervínculo a la home en todas las páginas-->
+                <img class="logo1" src="imagenes/logo_asador.png" alt="Logo El Asador" ></a>
+                <h1>El Asador</h1>
+                <h2>De la Parrilla al Plato</h2>
+            <div class="menu-container">
+                <ul class="menu">
+                    <li class="eventos"><a href="pages/eventos.html">Eventos</a></li>
+                    <li class="menu-option"><a href="pages/menu.html">Menu</a></li>
+                    <li class="locales"><a href="pages/locales.html">Locales</a></li>
+                    <li class="nosotros"><a href="pages/nosotros.html">Nosotros</a></li>
+                    <li class="reserva"><a href="https://wa.me/5491165298732" target="_blank">Reserva</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Quise probar este menu hamburguesa para mobile -->
+    <!--
+    <section class="menu-hamburguesa">
+        <nav class="navbar navbar-#D6B287 fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">El Asador</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://wa.me/5491165298732" target="_blank">RESERVA</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="pages/eventos.html">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/locales.html">Locales</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+         </section>   -->
+    <!--fin menu hamburguesa-->
+
+  
+   
+    <section class="videoyt">
+         <iframe width= "100%" height="800" src="https://www.youtube.com/embed/H3TrjsTJLRM?si=yBsIUFUoEHCSrW_g&amp;controls=0&amp;start=10;&amp;autoplay=1&amp;mute=1&amp;loop=1&amp;" title="Extenciones para visual estudio code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <section>
+        <div class="mid-servicio">
+            <p class="servicio">SERVICIO, CALIDAD Y AMBIENTE </p>
+            <p class="text"><strong>El Asador</strong> es una casa de carnes que respeta la tradición y la escencia de la familia argentina, rindiendo un orgulloso tributo a la cultura culinaria del Río de la Plata.
+            Todo el recorrido que vivencian las personas desde que llegan hasta que se van, está pensado para despertar sus sentidos, donde los aromas y sabores del lugar les hacen vivir una experiencia gastronómica única e inigualable.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <p class="especialidad">Especialidad Argentina</p>
+            <img class="plato1" src="imagenes/carnes-plato1.jpg" alt="Carne de Lomo">
+        </div>
+
+        <div>
+            <img class="logo-home" src="imagenes/logo_asador.png" alt="El Asador">
+            <p class="asador"> El Asador </p>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <section class="container">
+            <div class="row">
+                <!--Breakpoint-->
+                <div class="col-lg-4 col-md-5 col-sm-12" >
+                    <p><strong class="title-1">Casa Matriz:</strong></p>
+                    <p>Av. General San Martin 3376</p>
+                    <p>Lomas del Mirador</p>        
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <p><strong class="title-2">Telefono:</strong></p>
+                    <p>11-4699-1558</p>
+                </div>
+                <div class="col-lg-4 col-md-3 col-sm-12">
+                    <p><strong class="title-3">Horarios:</strong></p>
+                    <p>Abierto todos los días</p>
+                    <p>11:30 a 16hs - 18:30 a 1:00hs</p>
+                </div>
+            </div>
+        </section>
+
+
+    </footer>
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
