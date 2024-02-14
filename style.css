@@ -9,15 +9,13 @@ body{
 }
 
 header {
-    position: sticky;
-    top: 0%;
-    bottom: 0%;
     background-color: #D6B287;
     color: black;
 }
 
-
 li {
+    /*position: sticky;
+    top: 0px;*/
     display: inline;
     padding-top: 9px;
     padding-right: 20px;
@@ -44,7 +42,6 @@ h1 {
     display: inline;
     font-size: 190%;
     font-weight: 600;
-    
 }
 
 h2 {
@@ -57,12 +54,17 @@ h2 {
 }
 
 .menu-container {
-    position: fixed;
+    position: absolute;
     top: 83px;
     right: 60px;
 }
 
-
+.ytcontainer {
+    margin-top: 5px;
+    
+    
+    
+}
 
 @media only screen and (min-width: 481px) and (max-width: 950px) {
     .menu {
@@ -95,11 +97,11 @@ h2 {
         margin: auto;
         margin-top: -40px;
         margin-bottom: -15px;
-   }
+}
 
     h1 {
         display: none;   
-   }
+}
 
     h2 {
         display: block;
@@ -124,7 +126,7 @@ h2 {
         row-gap: 5px;
         padding: 0px 0px 0px 0px;  
     }        
-       
+
     .reserva {
         grid-column: 3 / 1;
         margin-top: 10px;
@@ -182,8 +184,6 @@ h2 {
     width: 15%;
     height: 15%;
     padding-bottom: 0px;
-
-   
 }
 
 .asador{
@@ -191,7 +191,6 @@ h2 {
     font-weight: bold;
     font-size: 40px;
     padding-top: 0px;
-
 }
 
 .footer{
@@ -202,7 +201,6 @@ h2 {
 .container{
     font-size: 16px;
     text-align: justify;
-   
 }
 
 .title-1 {
