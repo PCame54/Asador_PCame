@@ -11,6 +11,9 @@ body{
 header {
     background-color: #D6B287;
     color: black;
+    position: static;
+    top: 0%;
+    width: 100%;
 }
 
 li {
@@ -60,10 +63,8 @@ h2 {
 }
 
 .ytcontainer {
-    margin-top: 5px;
-    
-    
-    
+    margin-top: 10px;
+
 }
 
 @media only screen and (min-width: 481px) and (max-width: 950px) {
