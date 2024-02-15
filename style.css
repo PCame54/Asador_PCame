@@ -17,18 +17,38 @@ header {
 }
 
 .home {
-    display: inline;
-    padding: ;
+    vertical-align: middle;
 }
 
 li {
-    /*position: sticky;
-    top: 0px;*/
     display: inline;
     padding-top: 9px;
     padding-right: 20px;
     padding-bottom: 0px;
     padding-left: 20px;
+}
+
+.nosotros {
+    background-color: #1b0f04ae;
+    color: white;
+    border-radius: 6px;
+    padding: 9px;
+}
+
+.somos {
+    text-align: center;
+    padding: 20px;
+    margin-top: 4%;
+    font-weight: 600;
+    font-size: 24px;
+    color: #9a7343;
+}
+
+.texto-nosotros1 {
+    text-align: justify;
+    padding: 0px 20% 30px 20%;
+    font-size: 19.4px;
+    font-weight: 500;
 }
 
 .logo1 {
@@ -37,6 +57,12 @@ li {
     margin-left: 40px;
     width: 130px;
     padding-bottom: 20px;
+}
+
+hr {
+    margin-top: 60px;
+    margin-bottom: 90px;
+    margin-left: 0%;
 }
 
 a{
@@ -69,8 +95,33 @@ h2 {
 
 .ytcontainer {
     margin-top: 10px;
-
 }
+
+.javier {
+    color: #9a7343;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 45px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.texto-nosotros2 {
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 60px;
+    margin-bottom: 40px;
+    font-size: 19.4px;
+    font-weight: 500;
+}
+
+.javierb {
+    display: block;
+    width: 50%;
+    height: 50%s;
+}
+
 
 @media only screen and (min-width: 481px) and (max-width: 950px) {
     .menu {
