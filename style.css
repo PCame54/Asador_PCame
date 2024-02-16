@@ -24,7 +24,7 @@ li {
     padding-left: 20px;
 }
 
-.nosotros {
+.selected {
     background-color: #1b0f04ae;
     color: white;
     border-radius: 6px;
@@ -63,8 +63,8 @@ hr {
 
 a {
     color: black;
-    font-weight: 600;
     text-decoration: none;
+    font-weight: 600;
     font-size: 16px;
 }
 
