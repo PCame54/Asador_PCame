@@ -4,20 +4,16 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-body{
+body {
     background-color: rgb(244, 244, 244);
 }
 
 header {
+    position: static;
     background-color: #D6B287;
     color: black;
-    position: static;
     top: 0%;
     width: 100%;
-}
-
-.home {
-    vertical-align: middle;
 }
 
 li {
@@ -47,7 +43,7 @@ li {
 .texto-nosotros1 {
     text-align: justify;
     padding: 0px 20% 30px 20%;
-    font-size: 19.4px;
+    font-size: 19px;
     font-weight: 500;
 }
 
@@ -65,7 +61,7 @@ hr {
     margin-left: 0%;
 }
 
-a{
+a {
     color: black;
     font-weight: 600;
     text-decoration: none;
@@ -91,6 +87,7 @@ h2 {
     position: absolute;
     top: 83px;
     right: 60px;
+    text-decoration: none;
 }
 
 .ytcontainer {
@@ -118,8 +115,16 @@ h2 {
 
 .javierb {
     display: block;
-    width: 50%;
-    height: 50%s;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+.aplauso {
+    display: block;
+    margin: auto;
+    width: 180px;
+    margin-bottom: 40px;
 }
 
 
@@ -134,7 +139,6 @@ h2 {
     nav{
         height: 175px;
     }
-
     
 }
 
@@ -191,8 +195,7 @@ h2 {
     }
 }
 
-
-.mid-servicio{
+.mid-servicio {
     background-color: #D6B287; 
 }
 
@@ -225,7 +228,6 @@ h2 {
     background-color: #48AD58;
     border-radius: 10px;
     padding: 8px;
-    
 }
 
 .plato1 {
@@ -238,24 +240,24 @@ h2 {
 .logo-home {
     display: block;
     margin: auto;
-    width: 15%;
-    height: 15%;
+    width: 180px;
     padding-bottom: 0px;
 }
 
-.asador{
+.asador {
     text-align: center;
     font-weight: bold;
     font-size: 40px;
     padding-top: 0px;
 }
 
-.footer{
+.footer {
     background-color: #D6B287;
     padding-top: 15px;  
     padding-bottom: 15px;
 }
-.container{
+
+.container {
     font-size: 16px;
     text-align: justify;
 }
