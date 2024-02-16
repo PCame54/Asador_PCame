@@ -90,6 +90,40 @@ h2 {
     text-decoration: none;
 }
 
+.eventos:hover {
+    font-size: 10px;
+    background-color: rgb(222, 222, 222);
+    color: azure;
+    padding: 11px;
+    border-radius: 8px
+}
+
+.menu-option:hover {
+    font-size: 10px;
+    background-color: rgb(222, 222, 222);
+    color: azure;
+    padding: 11px;
+    border-radius: 8px
+} 
+
+
+.nosotros:hover {
+    font-size: 10px;
+    background-color: rgb(222, 222, 222);
+    color: azure;
+    padding: 11px;
+    border-radius: 8px;
+} 
+
+.locales:hover {
+    font-size: 10px;
+    background-color: rgb(222, 222, 222);
+    color: azure;
+    padding: 11px;
+    border-radius: 8px
+}
+
+
 .ytcontainer {
     margin-top: 10px;
 }
@@ -229,6 +263,12 @@ h2 {
     border-radius: 10px;
     padding: 8px;
 }
+
+.reserva:hover {
+    background-color: rgb(222, 222, 222);
+    border-radius: 30px;
+}
+
 
 .plato1 {
     width: 60%;
